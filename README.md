@@ -10,3 +10,16 @@ Python version uses [gorakhargosh/watchdog](https://github.com/gorakhargosh/watc
 ## Golang GTK3 version
 
 ![](/images/go-gtk3-watchdog.PNG)
+
+## Golang [walk](https://github.com/lxn/walk) version
+
+![](/images/go-walk-watchdog.PNG)
+
+Build:
+
+```
+go get github.com/lxn/walk
+go get github.com/akavel/rsrc
+rsrc -manifest app.manifest -o rsrc.syso
+go build -ldflags="-H windowsgui"
+```
