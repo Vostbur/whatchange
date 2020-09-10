@@ -18,6 +18,7 @@ Python version uses [gorakhargosh/watchdog](https://github.com/gorakhargosh/watc
 Build:
 
 ```
+go get github.com/fsnotify/fsnotify
 go get github.com/lxn/walk
 go get github.com/akavel/rsrc
 rsrc -manifest app.manifest -o rsrc.syso
